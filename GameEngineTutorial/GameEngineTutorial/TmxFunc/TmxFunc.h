@@ -13,6 +13,7 @@
 // functions depending on variable types
 
 // int 
+
 int GetObjectInt(std::string ObjectName, std::string PropertyName, const Tmx::ObjectGroup *ObjectGroup)
 {
 
