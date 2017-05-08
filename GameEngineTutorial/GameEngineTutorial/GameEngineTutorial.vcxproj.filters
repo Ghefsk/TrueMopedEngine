@@ -13,18 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{d1e503ea-0479-4af6-884b-d34940a13d24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="States\GameState.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="States\PlayingState.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LoadState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Factory.h">
@@ -36,9 +30,6 @@
     <ClInclude Include="Display\Display.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="States\MenuState.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Random\Random.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -47,6 +38,18 @@
     </ClInclude>
     <ClInclude Include="Component\Component.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="States\GameState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\PlayingState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="States\MenuState.h">
+      <Filter>Header Files\States</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
