@@ -132,6 +132,7 @@
     <ClInclude Include="States\GameState.h" />
     <ClInclude Include="States\MenuState.h" />
     <ClInclude Include="States\PlayingState.h" />
+    <ClInclude Include="TmxFunc\TmxFunc.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
