@@ -1,6 +1,6 @@
 #pragma once
 // all TMX bibl we need 
-#include <Tmx\TmxMap.h>
+#include <tmxParser>
 #include <Tmx\TmxObjectGroup.h>
 #include <Tmx\TmxObject.h>
 #include <Tmx\TmxTileset.h>
